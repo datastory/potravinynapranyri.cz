@@ -1,7 +1,7 @@
 import urllib2
 from bs4 import BeautifulSoup
 import re
-#vysledky se ulozi do souboru .csv (hodnoty oddelene carkami)
+#vysledky se ulozi do souboru ve formatu JMENO PRODUKTU,TYP ZAVADNOSTI,PODROBNE ZJISTENI,PRODEJCE,ADRESA
 f = open("potraviny.csv", "w")
 
 # zjisti pocet stranek ve strankovani
